@@ -23,3 +23,8 @@ var newRefStruct = new RefStruct
 };
 RefStructExample.DoStuff2(newRefStruct);
 
+OverloadResolutionPriority.MyMethod(9,8,7,6);
+
+var myEverything = new ImplementEverything();
+var myOverloader = new OverloadResolutionPriority2();
+Console.WriteLine(myOverloader.DoStringify(myEverything));

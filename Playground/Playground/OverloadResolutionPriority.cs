@@ -1,6 +1,6 @@
 ﻿namespace Playground;
 
-public class OverloadResolution
+public class OverloadResolutionPriority
 {
     public static void MyMethod(params int[] numbers)
     {

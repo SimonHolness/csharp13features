@@ -9,7 +9,7 @@ https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-13
 - New lock object 
 - `ref struct` can be accommodated in generic type declarations
 - `ref struct` types can now implement interfaces
-- Use of implicit index access in object initialization
+- Use of implicit 'from the end' index access in object initialization
 - New escape squence \e for 'ESCAPE' (`U+001B`)
 - Method group natural type improvements
 

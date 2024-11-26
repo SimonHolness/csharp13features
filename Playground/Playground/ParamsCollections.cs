@@ -41,6 +41,14 @@ public class ParamsCollections
         }
     }
 
+    // Use of "Span" seems to be strongly encouraged at the moment 
+    public static void MyMethod5(params ReadOnlySpan<string> names)
+    {
+        foreach (var name in names)
+        {
+            Console.WriteLine(name);
+        }
+    }
     
     public class MyEnumerable<T> : IEnumerable<T>
     {

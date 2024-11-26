@@ -8,6 +8,7 @@ ParamsCollections.MyMethod(1,2,3,4);
 ParamsCollections.MyMethod2("one", "two", "three", "four");
 ParamsCollections.MyMethod3("alpha", "beta", "gamma", "delta");
 ParamsCollections.MyMethod4(2.3, 4.5, 6.7);
+ParamsCollections.MyMethod5("ett", "två", "tre", "fyra");
 
 var partial = new PartialProperties();
 
